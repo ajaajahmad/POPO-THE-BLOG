@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ei=edge">
+    <!---fontawesome--->
+    <script src="https://kit.fontawesome.com/d676f19ec9.js" crossorigin="anonymous"></script>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Lora&display=swap" rel="stylesheet">
+    <!---styling--->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <link rel="stylesheet" href="../../css/admin.css">
+
+    <title>Admin Section - Add Topics</title>
+
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1 class="logo-text"><span>The</span>Project</h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+        <!--<li><<a href="#">Sign Up</a></li>
+          <li><<a href="#">Login</a></li>-->
+          <li>
+            <a href="#">
+              <i class="fa fa-user"></i>
+              Editor
+              <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+            </a>
+            <ul>
+              <li><a href="#" class="logout">Logout</a></li>
+            </ul>
+            </li>
+            </ul>
+    </header>
+    <!--admin page wrapper-->
+    <div class="admin-wrapper">
+
+     <!--LEFT SIDEBAR-->
+
+     <div class="left-sidebar">
+    <ul>
+      <li><a href="../article/index.html">Manage Article</a></li>
+      <li><a href="../user/index.html">Manage Users</a></li>
+      <li><a href="index.html">Manage Topics</a></li>
+    </ul>
+     </div>
+
+     <!--// LEFT SIDEBAR-->
+
+     <!--ADMIN CONTENT-->
+      <div class="admin-content">
+      <div class="button-group">
+        <a href="create.html" class="btn btn-big">Add Topics</a>
+        <a href="index.html" class="btn btn-big">Manage Topics</a>
+
+      </div>
+
+      <div class="content">
+        <h2 class="page-title">Add Topics</h2>
+
+       <form action="create.html" method="post">
+         <div>
+           <label>Name</label>
+           <input type="text" name="title" class="text-input">
+
+         </div>
+         <div>
+           <label>Discription</label>
+           <textarea name="discription" id="body"></textarea>
+
+         </div>
+
+
+         <div>
+           <button type="submit" class="btn btn-big">Add Topics</button>
+         </div>
+       </form>
+
+      </div>
+      </div>
+
+
+     <!--// ADMIN CONTENT-->
+    </div>
+   <!---//admin page wrapper--->
+
+
+    <!---Jquery--->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+   <!--CKEditor-->
+   <script src="https://cdn.ckeditor.com/ckeditor5/15.0.0/classic/ckeditor.js"></script>
+  <!--Custom Script-->
+   <script src="../../js/scripts.js"></script>
+   <!---Slick Carousel-->
+
+
+  </body>
+
+</html>

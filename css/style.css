@@ -9,11 +9,11 @@ body{
   padding: 0px;
   margin: 0px;
   background-color: #f6f6f6;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Kadwa', sans-serif;
 
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kadwa', sans-serif;
   color: #444;
   margin: 5px;
 }
@@ -33,7 +33,7 @@ a{
   border: 1px solid transparent;
   border-radius: .25rem;
   font-size: 1.08rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kadwa', sans-serif;
 }
 .btn-big{
   padding: .7rem 1.3rem;
@@ -49,7 +49,7 @@ a{
   color: #444;
   line-height: 1.5rem;
   font-size: 1.2em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Kadwa', sans-serif;
 
 }
 
@@ -88,7 +88,7 @@ header .logo {
 }
 header .logo-text{
   margin: 9px 5px;
-  font-family: 'Candal', serif;
+  font-family: 'Righteous', serif;
 }
 header ul {
   float: right;
